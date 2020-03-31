@@ -1,0 +1,494 @@
+@font-face {
+  font-family: athiti;
+  src: url(../../assets/fonts/athiti/athiti-regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: mitrlight;
+  src: url(../../assets/fonts/mitr/Mitr-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: thsarabun;
+  src: url(../../assets/fonts/thsarabun/THSarabun.ttf) format('truetype');
+}
+
+body.front-end {
+  font-family: 'mitrlight', monospace;
+  font-size: 1.5rem;
+}
+
+body.admin-page {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	/*font-family: 'thsarabun', monospace;*/
+	font-family: 'mitrlight', monospace;
+	/*font-size: 2rem;*/
+}
+
+.full-height {
+  height: 100%;
+}
+
+.stay-left-bottom {
+	position: fixed;
+	bottom: 15;
+	left: 15;
+}
+
+.non-edit {
+	pointer-events: none;
+}
+
+.chat-msg-area {
+	max-width: 80%;
+	background-color: #f8f9fa !important;
+	border: 1px solid #bfbfbf;
+	border-radius: 10px;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	hyphens: auto;
+}
+
+.chat-msg-confirm {
+	max-width: 80%;
+	background-color: #ccff99 !important;
+	border: 1px solid #66ff33;
+	border-radius: 10px;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	hyphens: auto;
+}
+
+.sticky-top {
+	position: sticky;
+	top: 0px;
+}
+
+.sticky-bottom {
+	position: sticky;
+	bottom: 0px;
+}
+
+.x-btn-purple {
+	background-color: #BA55D3;
+	color: white;
+	border: 3px solid #EE82EE;
+	font-size: 1.5rem;
+}
+
+.x-btn-purple:hover {
+	background-color: #EE82EE;
+	color: black;
+	border: 3px solid #BA55D3;
+  	box-shadow: 0 0 15px #EE82EE;
+}
+
+.x-btn-blue {
+	background-color: #0668E6;
+	color: white;
+	border: 3px solid #4BF1FF;
+	font-size: 1.5rem;
+}
+
+.x-btn-blue:hover {
+	background-color: #4BF1FF;
+	color: black;
+	border: 3px solid #0668E6;
+  	box-shadow: 0 0 15px #4BF1FF;
+}
+
+.x-btn-red {
+	background-color: #b30000;
+	color: white;
+	border: 3px solid #ff471a;
+	font-size: 1.5rem;
+}
+
+.x-btn-red:hover {
+	background-color: #ff471a;
+	color: black;
+	border: 3px solid #b30000;
+  	box-shadow: 0 0 15px #ff471a;
+}
+
+.x-btn-white {
+	background-color: #ffffff;
+	color: black;
+	border: 3px solid #b3b3b3;
+	font-size: 1.5rem;
+}
+
+.x-btn-white:hover {
+	background-color: #b3b3b3;
+	color: black;
+	border: 3px solid #ffffff;
+  	box-shadow: 0 0 15px #ffffff;
+}
+
+.x-btn-green {
+	background-color: #239023;
+	color: white;
+	border: 3px solid #79ff4d;
+	font-size: 1.5rem;
+}
+
+.x-btn-green:hover {
+	background-color: #79ff4d;
+	color: black;
+	border: 3px solid #239023;
+  	box-shadow: 0 0 15px #79ff4d;
+}
+
+.x-btn-yellow {
+	background-color: #ffff4d;
+	color: black;
+	border: 3px solid #e6e600;
+	font-size: 1.5rem;
+}
+
+.x-btn-yellow:hover {
+	background-color: #e6e600;
+	color: black;
+	border: 3px solid #ffff4d;
+  	box-shadow: 0 0 15px #e6e600;
+}
+
+.x-btn-orenge {
+	background-color: #e68a00;
+	color: white;
+	border: 3px solid #ffad33;
+	font-size: 1.5rem;
+}
+
+.x-btn-orenge:hover {
+	background-color: #ffad33;
+	color: black;
+	border: 3px solid #e68a00;
+  	box-shadow: 0 0 15px #ffad33;
+}
+
+.x-btn-white-grayshadow {
+	background-color: #ffffff;
+	color: black;
+	border: 3px solid #b3b3b3;
+	font-size: 1.5rem;
+}
+
+.x-btn-white-grayshadow:hover {
+	background-color: #b3b3b3;
+	color: white;
+	border: 3px solid #ffffff;
+  	box-shadow: 0 0 15px #b3b3b3;
+}
+
+.x-btn-forest {
+	background-color: #57a99a;
+	color: white;
+	border: 3px solid #acdeaa;
+	font-size: 1.5rem;
+	/*box-shadow: 0 0 7px #b7d3e9;*/
+}
+
+.x-btn-forest:hover {
+	background-color: #acdeaa;
+	color: black;
+	border: 3px solid #57a99a;
+  	box-shadow: 0 0 20px #acdeaa;
+}
+
+.x-card-light {
+	background-color: white;
+	color: black;
+	border: 0px;
+	/*border-top: 3px solid #e6e6e6;*/
+}
+
+.x-card-light:hover {
+	background-color: #f2f2f2;
+	color: black;
+	/*border: 5px solid white;*/
+	/*box-shadow: 0 0 10px #d9d9d9;*/
+	border-radius: 10px;
+}
+
+
+.vl-purple {
+	height: 95%;
+	border-left: 4px solid #BA55D3;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px #EE82EE;
+}
+
+
+.vl-yellow {
+	height: 95%;
+	border-left: 4px solid #ffff4d;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px #e6e600;
+}
+
+.true-center-page {
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+
+.badge-login {
+	width: 40%;
+	border-radius: 10px;
+}
+
+.modal-xl {
+	max-width: 1100px !important;
+}
+
+@media screen and (max-width: 1140px) {
+  .true-center-page {
+  	width: 40%;
+  }
+
+  .modal-xl {
+	max-width: 1100px !important;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .true-center-page {
+  	width: 40%;
+  }
+
+  .modal-xl {
+	max-width: 920px !important;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .true-center-page {
+  	width: 70%;
+  }
+
+  .modal-xl {
+	max-width: 680px !important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .true-center-page {
+  	width: 100%;
+  }
+
+  .modal-xl {
+	max-width: 500px !important;
+  }
+}
+
+.table-hover-primary > tbody > tr.selrow {
+  background: #4e73df !important;/*#4e73df*/
+  color: white !important;
+}
+
+.table-hover-primary > tbody > tr:hover {
+  background: #93a9eb !important;
+  color: white !important;
+}
+
+
+.table-hover-info > tbody > tr.selrow {
+  background: #288b9a !important;
+  color: white !important;
+}
+
+.table-hover-info > tbody > tr:hover {
+  background: #36b8cb !important;
+  color: white !important;
+}
+
+.table-hover-success > tbody > tr.selrow {
+  background: #159165 !important;
+  color: white !important;
+}
+
+.table-hover-success > tbody > tr:hover {
+  background: #1cc588 !important;
+  color: white !important;
+}
+
+.icon-hover-trans-gray:hover {
+	color: #ffffff;
+	text-shadow: 0 0 15px #262626;/*#808080*/
+}
+
+/* color of sunday*/
+
+.card-weekday-color-sunday {
+	border: 1px solid #ff0000;
+	cursor: pointer;
+}
+
+.card-weekday-color-sunday:hover {
+	background-color: #ffcccc;
+}
+
+.card-weekday-color-sunday > div.sdisel {
+	background-color: #ffcccc !important;
+}
+
+.card-weekday-color-sunday > div.card-body > i {
+	color: #ff0000;
+}
+
+.card-weekday-color-sunday > div.card-footer {
+	background-color: #ff6666 !important;
+	border-top: 1px solid #ff0000;
+}
+
+/* color of monday*/
+
+.card-weekday-color-monday {
+	border: 1px solid #e6e600;
+	cursor: pointer;
+}
+
+.card-weekday-color-monday:hover {
+	background-color: #ffffcc;
+}
+
+.card-weekday-color-monday > div.sdisel {
+	background-color: #ffffcc !important;
+}
+
+.card-weekday-color-monday > div.card-body > i {
+	color: #e6e600;
+}
+
+.card-weekday-color-monday > div.card-footer {
+	background-color: #ffff66 !important;
+	border-top: 1px solid #e6e600;
+}
+
+
+
+/* color of tuesday*/
+
+.card-weekday-color-tuesday {
+	border: 1px solid #ff1a90;
+	cursor: pointer;
+}
+
+.card-weekday-color-tuesday:hover {
+	background-color: #ffe6f3;
+}
+
+.card-weekday-color-tuesday > div.sdisel {
+	background-color: #ffe6f3 !important;
+}
+
+.card-weekday-color-tuesday > div.card-body > i {
+	color: #ff1a90;
+}
+
+.card-weekday-color-tuesday > div.card-footer {
+	background-color: #ffb3d9 !important;
+	border-top: 1px solid #ff1a90;
+}
+
+/* color of wednesday*/
+
+.card-weekday-color-wednesday {
+	border: 1px solid #00b300;
+	cursor: pointer;
+}
+
+.card-weekday-color-wednesday:hover {
+	background-color: #ccffcc;
+}
+
+.card-weekday-color-wednesday > div.sdisel {
+	background-color: #ccffcc !important;
+}
+
+.card-weekday-color-wednesday > div.card-body > i {
+	color: #00b300;
+}
+
+.card-weekday-color-wednesday > div.card-footer {
+	background-color: #66ff66 !important;
+	border-top: 1px solid #00b300;
+}
+
+
+/* color of thursday*/
+
+.card-weekday-color-thursday {
+	border: 1px solid #e65c00;
+	cursor: pointer;
+}
+
+.card-weekday-color-thursday:hover {
+	background-color: #ffe0cc;
+}
+
+.card-weekday-color-thursday > div.sdisel {
+	background-color: #ffe0cc !important;
+}
+
+.card-weekday-color-thursday > div.card-body > i {
+	color: #e65c00;
+}
+
+.card-weekday-color-thursday > div.card-footer {
+	background-color: #ffb366 !important;
+	border-top: 1px solid #e65c00;
+}
+
+/* color of friday*/
+
+.card-weekday-color-friday {
+	border: 1px solid #00cccc;
+	cursor: pointer;
+}
+
+.card-weekday-color-friday:hover {
+	background-color: #e6ffff;
+}
+
+.card-weekday-color-friday > div.sdisel {
+	background-color: #e6ffff !important;
+}
+
+.card-weekday-color-friday > div.card-body > i {
+	color: #00cccc;
+}
+
+.card-weekday-color-friday > div.card-footer {
+	background-color: #99ffff !important;
+	border-top: 1px solid #00cccc;
+}
+
+/* color of saturday*/
+
+.card-weekday-color-saturday {
+	border: 1px solid #990099;
+	cursor: pointer;
+}
+
+.card-weekday-color-saturday:hover {
+	background-color: #ffccff;
+}
+
+.card-weekday-color-saturday > div.sdisel {
+	background-color: #ffccff !important;
+}
+
+.card-weekday-color-saturday > div.card-body > i {
+	color: #990099;
+}
+
+.card-weekday-color-saturday > div.card-footer {
+	background-color: #ff80ff !important;
+	border-top: 1px solid #990099;
+}
